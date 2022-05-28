@@ -12,17 +12,17 @@ We run the attacks covered in the Stratus Red Team repository one by one on our 
 
 | Attack                                                     	| Description                                            	|                              Link                              	|
 |------------------------------------------------------------	|--------------------------------------------------------	|:--------------------------------------------------------------:	|
-| aws.credential-access.ec2-get-password-data                	| Retrieve EC2 Password Data                             	|         [](aws.credential-access.ec2-get-password-data)        	|
-| aws.credential-access.ec2-steal-instance-credentials       	| Steal EC2 Instance Credentials                         	|    [](aws.credential-access.ec2-steal-instance-credentials)    	|
-| aws.credential-access.secretsmanager-retrieve-secrets      	| Retrieve a High Number of Secrets Manager secrets      	|    [](aws.credential-access.secretsmanager-retrieve-secrets)   	|
-| aws.credential-access.ssm-retrieve-securestring-parameters 	| Retrieve And Decrypt SSM Parameters                    	| [](aws.credential-access.ssm-retrieve-securestring-parameters) 	|
-| aws.defense-evasion.cloudtrail-delete                      	| Delete CloudTrail Trail                                	|            [](aws.defense-evasion.cloudtrail-delete)           	|
-| aws.defense-evasion.cloudtrail-event-selectors             	| Disable CloudTrail Logging Through Event Selectors     	|       [](aws.defense-evasion.cloudtrail-event-selectors)       	|
-| aws.defense-evasion.cloudtrail-lifecycle-rule              	| CloudTrail Logs Impairment Through S3 Lifecycle Rule   	|        [](aws.defense-evasion.cloudtrail-lifecycle-rule)       	|
-| aws.defense-evasion.cloudtrail-stop                        	| Stop CloudTrail Trail                                  	|             [](aws.defense-evasion.cloudtrail-stop)            	|
-| aws.defense-evasion.organizations-leave                    	| Attempt to Leave the AWS Organization                  	|           [](aws.defense-evasion.organizations-leave)          	|
-| aws.defense-evasion.vpc-remove-flow-logs                   	| Remove VPC Flow Logs                                   	|          [](aws.defense-evasion.vpc-remove-flow-logs)          	|
-| aws.discovery.ec2-enumerate-from-instance                  	| Execute Discovery Commands on an EC2 Instance          	|          [](aws.discovery.ec2-enumerate-from-instance)         	|
+| aws.credential-access.ec2-get-password-data                	| Retrieve EC2 Password Data                             	|         [Link](aws.credential-access.ec2-get-password-data)        	|
+| aws.credential-access.ec2-steal-instance-credentials       	| Steal EC2 Instance Credentials                         	|    [Link](aws.credential-access.ec2-steal-instance-credentials)    	|
+| aws.credential-access.secretsmanager-retrieve-secrets      	| Retrieve a High Number of Secrets Manager secrets      	|    [Link](aws.credential-access.secretsmanager-retrieve-secrets)   	|
+| aws.credential-access.ssm-retrieve-securestring-parameters 	| Retrieve And Decrypt SSM Parameters                    	| [Link](aws.credential-access.ssm-retrieve-securestring-parameters) 	|
+| aws.defense-evasion.cloudtrail-delete                      	| Delete CloudTrail Trail                                	|            [Link](aws.defense-evasion.cloudtrail-delete)           	|
+| aws.defense-evasion.cloudtrail-event-selectors             	| Disable CloudTrail Logging Through Event Selectors     	|       [Link](aws.defense-evasion.cloudtrail-event-selectors)       	|
+| aws.defense-evasion.cloudtrail-lifecycle-rule              	| CloudTrail Logs Impairment Through S3 Lifecycle Rule   	|        [Link](aws.defense-evasion.cloudtrail-lifecycle-rule)       	|
+| aws.defense-evasion.cloudtrail-stop                        	| Stop CloudTrail Trail                                  	|             [Link](aws.defense-evasion.cloudtrail-stop)            	|
+| aws.defense-evasion.organizations-leave                    	| Attempt to Leave the AWS Organization                  	|           [Link](aws.defense-evasion.organizations-leave)          	|
+| aws.defense-evasion.vpc-remove-flow-logs                   	| Remove VPC Flow Logs                                   	|          [Link](aws.defense-evasion.vpc-remove-flow-logs)          	|
+| aws.discovery.ec2-enumerate-from-instance                  	| Execute Discovery Commands on an EC2 Instance          	|          [Link](aws.discovery.ec2-enumerate-from-instance)         	|
 | aws.discovery.ec2-download-user-data                       	| Download EC2 Instance User Data                        	|                               TBD                              	|
 | aws.execution.ec2-user-data                                	| Execute Commands on EC2 Instance via User Data         	|                               TBD                              	|
 | aws.exfiltration.ec2-security-group-open-port-22-ingress   	| Open Ingress Port 22 on a Security Group               	|                               TBD                              	|
