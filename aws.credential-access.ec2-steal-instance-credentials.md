@@ -6,7 +6,7 @@ This attack simulates theft of EC2 instance credentials from the Instance Metada
 
 Next, the AWS credentials would be used by the attacker to make API calls - either from the attacker machine or from an ec2 instance spawned in the attacker's AWS account. While creating a detection rule we need to keep both situations in mind and hence cannot solely rely on IP addresses internal/external to AWS.
 
-### Running the test
+#### Running the test
 ```
 └─$ ./stratus detonate aws.credential-access.ec2-steal-instance-credentials
 2022/05/27 17:24:45 Checking your authentication against AWS
