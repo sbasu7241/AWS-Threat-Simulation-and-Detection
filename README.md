@@ -1,6 +1,6 @@
 ### AWS Threat Detection with Stratus Red Team
 
-This repository is a documentation of my adventures with [Stratus Red Team](https://github.com/DataDog/stratus-red-team) - a tool for advesary emulation for the cloud.
+This repository is a documentation of my adventures with [Stratus Red Team](https://github.com/DataDog/stratus-red-team) - a tool for adversary emulation for the cloud.
 
 Stratus Red Team is "[Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) for the cloud, allowing to emulate offensive attack techniques in a granular and self-contained manner.
 
