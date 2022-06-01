@@ -14,14 +14,13 @@ This attack simulates an insider's unsuccessful attempt to leave the AWS Organiz
 
 #### Detection 
 
-A straightforward detection - look for *LeaveOrganization* API call.
+For detection - look for *LeaveOrganization* API call.
 
 ```
 _sourceCategory=aws/cloudtrail
 | json field=_raw "sourceIPAddress" as srcIP nodrop
 | json field=_raw "eventName" as eventName nodrop
 | json field=_raw "userIdentity.accountId" as accountid nodrop
-| where !(principalid matches "*sumologic*")
 | where eventName = "LeaveOrganization"
 ```
 

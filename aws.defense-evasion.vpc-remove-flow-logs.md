@@ -13,6 +13,10 @@ This attack simulates an attacker disabling a VPC Flow Logs configuration.
 
 #### Detection 
 
+According to AWS docs in order to remove vpc flow logs via CLI we use
+
+![](./Screenshots/22.png)
+
 To detect this event we need to monitor for a single API call - **DeleteFlowLogs** 
 
 ```
@@ -21,7 +25,6 @@ _sourceCategory=aws/cloudtrail
 | json field=_raw "eventName" as eventName nodrop
 | json field=_raw "userIdentity.accountId" as accountid nodrop
 | json field=_raw "userIdentity.userName" as username
-| where !(principalid matches "*sumologic*")
 | where eventName = "DeleteFlowLogs"
 ```
 
