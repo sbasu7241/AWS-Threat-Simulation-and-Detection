@@ -23,7 +23,6 @@ We run the attacks covered in the Stratus Red Team repository one by one on our 
 | aws.defense-evasion.organizations-leave                    	| Attempt to Leave the AWS Organization                  	|           [Link](aws.defense-evasion.organizations-leave.md)          	|
 | aws.defense-evasion.vpc-remove-flow-logs                   	| Remove VPC Flow Logs                                   	|          [Link](aws.defense-evasion.vpc-remove-flow-logs.md)          	|
 | aws.discovery.ec2-enumerate-from-instance                  	| Execute Discovery Commands on an EC2 Instance          	|          [Link](aws.discovery.ec2-enumerate-from-instance.md)         	|
-| aws.discovery.ec2-download-user-data						   	| Download EC2 Instance User Data			               	|                               TBD                              			|
 | aws.exfiltration.ec2-security-group-open-port-22-ingress   	| Open Ingress Port 22 on a Security Group               	|  [Link](aws.exfiltration.ec2-security-group-open-port-22-ingress.md)      |
 | aws.exfiltration.ec2-share-ami                             	| Exfiltrate an AMI by Sharing It                        	|              [Link](aws.exfiltration.ec2-share-ami.md)                    |
 | aws.exfiltration.ec2-share-ebs-snapshot                    	| Exfiltrate EBS Snapshot by Sharing It                  	|            [Link](aws.exfiltration.rds-share-snapshot.md)                    |
