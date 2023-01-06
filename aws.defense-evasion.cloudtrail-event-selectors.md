@@ -5,10 +5,10 @@ This attack simulates an attacker disrupting CloudTrail Logging by creating an e
 #### Run the test
 
 ```
-└─$ ./stratus detonate aws.defense-evasion.cloudtrail-delete
-2022/05/27 21:34:12 Checking your authentication against AWS
-2022/05/27 21:34:13 Not warming up - aws.defense-evasion.cloudtrail-delete is already warm. Use --force to force
-2022/05/27 21:34:13 Deleting CloudTrail trail my-cloudtrail-trail-2
+└─$ ./stratus detonate aws.defense-evasion.cloudtrail-event-selectors 
+2023/01/06 13:58:42 Checking your authentication against AWS
+2023/01/06 13:58:44 Not warming up - aws.defense-evasion.cloudtrail-event-selectors is already warm. Use --force to force
+2023/01/06 13:58:44 Applying event selector on CloudTrail trail stratus-red-team-ctes-trail-vxwwrlzvwl to disable logging management and data events
 ```
 
 #### Detection 
